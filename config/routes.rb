@@ -1,4 +1,9 @@
 Raspberry::Application.routes.draw do
+
+  match 'jobdetails/show' => 'jobdetails#show', :as => :jobdetailview
+
+  resources :jobresults
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -1,0 +1,30 @@
+<h1>Your Search Results</h1>
+
+<style type="text/css">
+    .leftMenu {  }
+</style>
+
+
+<div class="mainContent">
+    <div class="leftMenu">
+       <div></div>
+    </div>
+
+    <div class="jobList">
+    <% unless @jobresults.blank? %>
+
+        <% if @jobresults["ResponseJobSearch"]["TotalCount"] == 0 %>
+            Heck ya
+        <% else %>
+
+            <% @jobresults["ResponseJobSearch"]["Results"]["JobSearchResult"].each do |result| %>
+                <div class="resultItem">
+                  <%= link_to result["JobTitle"], jobdetailview_path(:jobDID => result["DID"]) %>
+                </div>
+            <% end %>
+
+        <% end %>
+    <% end %>
+    </div>
+
+</div>
