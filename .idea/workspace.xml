@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db60be3d-c18a-4789-9f22-306a03b913b6" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\Rails\raspberry\app\views\applications\edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Rails\raspberry\app\views\applications\new.html.erb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/applications_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/applications_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/jobdetails/apply.html.erb" afterPath="$PROJECT_DIR$/app/views/jobdetails/apply.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/jobresults/index.html.erb" afterPath="$PROJECT_DIR$/app/views/jobresults/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/jobdetails_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/jobdetails_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/jobresults_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/jobresults_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/raspberry.iml" afterPath="$PROJECT_DIR$/.idea/raspberry.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/applications/show.html.erb" afterPath="$PROJECT_DIR$/app/views/applications/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/jobdetails/show.html.erb" afterPath="$PROJECT_DIR$/app/views/jobdetails/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -15,16 +20,17 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372057046583" ignored="false" />
     <file path="/jobresults_controller.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1371799865639" ignored="false" />
-    <file path="/index.html.erb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1371806925425" ignored="false" />
+    <file path="/index.html.erb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372069858702" ignored="false" />
     <file path="/routes.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372064797716" ignored="false" />
-    <file path="/show.html.erb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372065630813" ignored="false" />
-    <file path="/jobdetails_controller.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372058974688" ignored="false" />
+    <file path="/show.html.erb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372069921291" ignored="false" />
+    <file path="/jobdetails_controller.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372068757104" ignored="false" />
     <file path="/fragment.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372058049967" ignored="false" />
-    <file path="/apply.html.erb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372065634366" ignored="false" />
+    <file path="/apply.html.erb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372069181712" ignored="false" />
     <file path="/ApplyStart.html.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372059261117" ignored="false" />
     <file path="/ApplyFinish.html.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372059337561" ignored="false" />
     <file path="/apply_controller.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372059580101" ignored="false" />
-    <file path="/applications_controller.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372065148235" ignored="false" />
+    <file path="/applications_controller.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372066962793" ignored="false" />
+    <file path="/application_controller.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372065913998" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,37 +50,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="apply.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/jobdetails/apply.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="32" selection-start="285" selection-end="285" vertical-scroll-proportion="-5.8846154">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/jobdetails/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="38" selection-start="168" selection-end="168" vertical-scroll-proportion="0.23160763">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/applications/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="41" selection-start="109" selection-end="109" vertical-scroll-proportion="-2.6153846">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applications_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="applications_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/applications_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="27" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
+            <state line="5" column="2" selection-start="134" selection-end="134" vertical-scroll-proportion="0.21628499">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jobresults_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/jobresults_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="2" selection-start="73" selection-end="89" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jobdetails_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/jobdetails_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="18" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="27" selection-start="806" selection-end="806" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -98,22 +104,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/jobresults_controller.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/jobresults.css.scss" />
         <option value="$PROJECT_DIR$/app/views/jobdetails/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/jobresults/index.html.erb" />
-        <option value="$PROJECT_DIR$/log/development.log" />
-        <option value="$PROJECT_DIR$/app/controllers/jobdetails_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/Apply/ApplyStart.html.rb" />
         <option value="$PROJECT_DIR$/app/views/Apply/ApplyFinish.html.rb" />
-        <option value="$PROJECT_DIR$/README.rdoc" />
         <option value="$PROJECT_DIR$/app/controllers/apply_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/applications_controller.rb" />
+        <option value="$PROJECT_DIR$/README.rdoc" />
+        <option value="$PROJECT_DIR$/log/development.log" />
         <option value="$PROJECT_DIR$/app/views/applications/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/jobdetails/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/jobdetails/apply.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/jobresults/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/jobdetails/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/jobresults_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/jobdetails_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/applications_controller.rb" />
       </list>
     </option>
   </component>
@@ -226,6 +232,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="jobresults" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspberry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspberry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="jobdetails" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -249,24 +277,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="applications" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="raspberry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="raspberry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -550,7 +560,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="748" extended-state="6" />
+    <frame x="-4" y="-4" width="1374" height="748" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -561,9 +571,9 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25378788" sideWeight="0.6704" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4176" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.352" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -635,114 +645,114 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/log/development.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="0" selection-start="6399" selection-end="6399" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/jobdetails/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="30" selection-start="29" selection-end="29" vertical-scroll-proportion="0.09264305">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.rdoc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="212" column="78" selection-start="7390" selection-end="7466" vertical-scroll-proportion="0.33333334">
+        <state line="212" column="2" selection-start="7390" selection-end="7390" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+    <entry file="file://$PROJECT_DIR$/log/development.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="19" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/jobdetails/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="33" selection-start="360" selection-end="360" vertical-scroll-proportion="0.5095368">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.9193548">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/boot.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/jobdetails_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="50" selection-start="156" selection-end="171" vertical-scroll-proportion="0.40591398">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/jobresult.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="25" selection-start="75" selection-end="75" vertical-scroll-proportion="0.129771">
+        <state line="4" column="33" selection-start="133" selection-end="133" vertical-scroll-proportion="0.04735376">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="57" selection-start="338" selection-end="338" vertical-scroll-proportion="0.302799">
+        <state line="10" column="82" selection-start="353" selection-end="353" vertical-scroll-proportion="0.43256998">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/jobresults/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/jobdetails/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/jobdetails/apply.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="32" selection-start="285" selection-end="285" vertical-scroll-proportion="-5.8846154">
+        <state line="9" column="33" selection-start="244" selection-end="244" vertical-scroll-proportion="-5.8846154">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/applications_controller.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="27" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
+        <state line="12" column="0" selection-start="136" selection-end="136" vertical-scroll-proportion="0.5483871">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/applications/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="29" selection-start="415" selection-end="415" vertical-scroll-proportion="0.68786126">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/applications/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="36" selection-start="95" selection-end="95" vertical-scroll-proportion="0.34393063">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/applications/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="41" selection-start="109" selection-end="109" vertical-scroll-proportion="-2.6153846">
+        <state line="6" column="39" selection-start="107" selection-end="107" vertical-scroll-proportion="0.27792916">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/jobdetails/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="38" selection-start="168" selection-end="168" vertical-scroll-proportion="0.23160763">
+        <state line="5" column="17" selection-start="116" selection-end="116" vertical-scroll-proportion="0.23160763">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/jobresults/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="31" selection-start="618" selection-end="618" vertical-scroll-proportion="0.6021798">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="27" selection-start="806" selection-end="806" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/jobdetails_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="18" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/jobresults_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="2" selection-start="73" selection-end="89" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/applications_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="2" selection-start="134" selection-end="134" vertical-scroll-proportion="0.21628499">
           <folding />
         </state>
       </provider>

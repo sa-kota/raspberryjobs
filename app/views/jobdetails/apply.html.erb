@@ -1,6 +1,10 @@
 <h1>Welcome to apply page</h1>
 
+<%= @form %>
+
 <%= form_tag("../applications/show", :method => "post") do %>
+    <%= hidden_field_tag 'jobdid', @jobDID  %>
+    <br>
     <%= label_tag(:fn, "First Name:") %>
     <%= text_field_tag(:fn) %>
     <br>

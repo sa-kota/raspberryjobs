@@ -1,7 +1,7 @@
- <% @job = @jobdetail["ResponseJob"]["Job"] %>
+ <% @job = @jobdetail.ResponseJob.Job %>
 
-<h1><%= @job["JobTitle"] %></h1>
-
- <%= form_tag("/apply", :method => "get") do %>
-     <%= submit_tag("Apply to this Job") %>
- <% end %>
+<h1><%= @job.JobTitle %></h1>
+<br><br>
+<%= @job.JobDescription %>
+<br><br>
+<%= link_to "Apply Here", jobdetailapply_path(:jobDID => @job.DID) %>

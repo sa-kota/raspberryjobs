@@ -13,13 +13,15 @@
     <div class="jobList">
     <% unless @jobresults.blank? %>
 
-        <% if @jobresults["ResponseJobSearch"]["TotalCount"] == 0 %>
-            Heck ya
+        <% if @jobresults.ResponseJobSearch.TotalCount == 0 %>
+            no jobs found for your search criteria
         <% else %>
 
-            <% @jobresults["ResponseJobSearch"]["Results"]["JobSearchResult"].each do |result| %>
+            <% @jobresults.ResponseJobSearch.Results.JobSearchResult.each do |result| %>
                 <div class="resultItem">
-                  <%= link_to result["JobTitle"], jobdetailview_path(:jobDID => result["DID"]) %>
+                  <%= link_to result.JobTitle, jobdetailview_path(:jobDID => result.DID) %>
+                  Descripion : <%= result.DescriptionTeaser %>
+                  <br><br>
                 </div>
             <% end %>
 
