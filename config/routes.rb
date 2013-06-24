@@ -2,6 +2,7 @@ Raspberry::Application.routes.draw do
 
   resources :applications
 
+  post '/applications/show', to: 'applications#show', as: 'applicationsfinish'
 
   match 'jobdetails/show' => 'jobdetails#show', :as => :jobdetailview
 
