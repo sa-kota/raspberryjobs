@@ -1,0 +1,11 @@
+<h1>Welcome to apply page</h1>
+
+<%= form_tag("../Apply/ApplyFinish", :method => "get") do %>
+    <%= label_tag(:fn, "First Name:") %>
+    <%= text_field_tag(:fn) %>
+    <br>
+    <%= label_tag(:ln, "Last Name:") %>
+    <%= text_field_tag(:ln) %>
+    <br>
+    <%= submit_tag("Search") %>
+<% end %>

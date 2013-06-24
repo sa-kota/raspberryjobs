@@ -10,7 +10,7 @@ class JobdetailsController < ApplicationController
     @jobdetail = jobdetail(:DID => params[:jobDID])
   end
 
-  def new
+  def apply
   end
 
 end

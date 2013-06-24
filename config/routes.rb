@@ -1,6 +1,13 @@
 Raspberry::Application.routes.draw do
 
+  resources :applications
+
+
   match 'jobdetails/show' => 'jobdetails#show', :as => :jobdetailview
+
+  match '/apply' => 'jobdetails#apply', :as => :jobdetailapply
+
+  match '/Apply/ApplyFinish' => 'apply#applyfinish', :as => :applyfinish
 
   resources :jobresults
 
