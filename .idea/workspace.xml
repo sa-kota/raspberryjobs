@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="db60be3d-c18a-4789-9f22-306a03b913b6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/jobdetails/show.html.erb" afterPath="$PROJECT_DIR$/app/views/jobdetails/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="raspberry.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -11,7 +10,7 @@
     <file path="/jobresults_controller.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1371799865639" ignored="false" />
     <file path="/index.html.erb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372069858702" ignored="false" />
     <file path="/routes.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372064797716" ignored="false" />
-    <file path="/show.html.erb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372143017580" ignored="false" />
+    <file path="/show.html.erb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372145556021" ignored="false" />
     <file path="/jobdetails_controller.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372140167175" ignored="false" />
     <file path="/fragment.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372058049967" ignored="false" />
     <file path="/apply.html.erb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372073480836" ignored="false" />
@@ -42,7 +41,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/jobresults/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="20" selection-start="238" selection-end="363" vertical-scroll-proportion="-5.3846154">
+            <state line="27" column="8" selection-start="731" selection-end="740" vertical-scroll-proportion="-11.923077">
               <folding />
             </state>
           </provider>
@@ -80,7 +79,7 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/jobdetails/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="81" selection-end="81" vertical-scroll-proportion="0.19653179">
+            <state line="10" column="1" selection-start="369" selection-end="369" vertical-scroll-proportion="0.5105105">
               <folding />
             </state>
           </provider>
@@ -779,14 +778,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/jobresults/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="20" selection-start="238" selection-end="363" vertical-scroll-proportion="-5.3846154">
+        <state line="27" column="8" selection-start="731" selection-end="740" vertical-scroll-proportion="-11.923077">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/jobdetails/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="81" selection-end="81" vertical-scroll-proportion="0.19653179">
+        <state line="10" column="1" selection-start="369" selection-end="369" vertical-scroll-proportion="0.5105105">
           <folding />
         </state>
       </provider>
