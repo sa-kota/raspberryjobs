@@ -10,6 +10,8 @@ Raspberry::Application.routes.draw do
 
   match 'jobs/jobrecs' => 'jobs#jobrec', :as => :jobrecs
 
+  match '/externaljob' => 'https://www.careerbuilder.com/ApplyOnline/ExternalApply.aspx?useframes=True', :as => :externalapply
+
   match '/Apply/ApplyFinish' => 'apply#applyfinish', :as => :applyfinish
 
   resources :jobresults
