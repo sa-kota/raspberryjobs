@@ -2,15 +2,11 @@ Raspberry::Application.routes.draw do
 
   resources :applications
 
-  post '/applications/show', to: 'applications#show', as: 'applicationsfinish'
-
-  match 'jobdetails/show' => 'jobdetails#show', :as => :jobdetailview
+  match '/jobdetails/show' => 'jobdetails#show', :as => :jobdetailview
 
   match '/apply' => 'jobdetails#apply', :as => :jobdetailapply
 
-  match 'jobs/jobrecs' => 'jobs#jobrec', :as => :jobrecs
-
-  match '/externaljob' => 'https://www.careerbuilder.com/ApplyOnline/ExternalApply.aspx?useframes=True', :as => :externalapply
+  match '/jobs/jobrecs' => 'jobs#jobrec', :as => :jobrecs
 
   match '/Apply/ApplyFinish' => 'apply#applyfinish', :as => :applyfinish
 

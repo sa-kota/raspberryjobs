@@ -7,7 +7,7 @@
 
  <% if @job.ExternalApplication == 'True' %>
      <%= link_to "External Apply",
-                 externalapply(:jobDID => @job.DID),
+                 'https://www.careerbuilder.com/ApplyOnline/ExternalApply.aspx?useframes=True&JobDID='.to_s() + @job.DID,
                  :target => "_blank",
                  :id => 'externalLink'%>
  <% else %>
