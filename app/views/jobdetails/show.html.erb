@@ -5,3 +5,15 @@
 <%= @job.JobDescription %>
 <br><br>
 <%= link_to "Apply Here", jobdetailapply_path(:jobDID => @job.DID) %>
+ <br><br>
+ <%= @job.inspect %>
+ <br><br>
+
+ <% if @jobresults.ResponseJobSearch.TotalCount == 0 %>
+     no jobs found for your search criteria
+ <% else %>
+
+
+ <% unless @job.ExternalApplication? %>
+     Hell ya
+ <% end %>

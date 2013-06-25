@@ -12,8 +12,8 @@ class JobdetailsController < ApplicationController
   end
 
   def apply
-    @jobDID = "J3H1CQ6G7W3C751X29V"
-    @form = LoadApplicationForm(:DID => @jobDID)
+    @jobDID = params[:jobDID]
+    #"J3H1CQ6G7W3C751X29V"
   end
 
 end

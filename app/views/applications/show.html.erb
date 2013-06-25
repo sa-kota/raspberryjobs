@@ -1,8 +1,10 @@
 <h1>Application submitted successfully</h1>
 
+JobDID : <%= @jobDID %>
+<br><br>
+Apply URL : <%= @applyformurl %>
+<br><br>
 
-DID : <%= @jobDID %>
-<br>
-First Name : <%= @firstname %>
-<br>
-last Name : <%= @lastname %>
+<iframe src="<%= @applyformurl  %>" style="height: 585px; width:610px" >
+</iframe>
+

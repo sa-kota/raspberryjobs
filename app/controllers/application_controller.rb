@@ -30,7 +30,8 @@ class ApplicationController < ActionController::Base
   end
 
   def LoadApplicationForm(options={})
-    mashup(self.class.get("/v1/application/form?",:query => options.merge(self.default_options)))
+    self.class.get("/v1/application/form?",:query => options.merge(self.default_options))
   end
+
 
 end

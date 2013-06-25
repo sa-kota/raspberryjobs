@@ -1,15 +1,21 @@
 <h1>Welcome to apply page</h1>
 
-<%= @form %>
+<br>
 
 <%= form_tag("../applications/show", :method => "post") do %>
     <%= hidden_field_tag 'jobdid', @jobDID  %>
     <br>
-    <%= label_tag(:fn, "First Name:") %>
-    <%= text_field_tag(:fn) %>
+    <%= label_tag(:ApplicantName, "Applicant Name:") %>
+    <%= text_field_tag(:ApplicantName) %>
     <br>
-    <%= label_tag(:ln, "Last Name:") %>
-    <%= text_field_tag(:ln) %>
+    <%= label_tag(:ApplicantEmail, "Applicant Email:") %>
+    <%= text_field_tag(:ApplicantEmail) %>
+    <br>
+    <%= label_tag(:Resume, "Resume:") %>
+    <%= text_field_tag(:Resume) %>
+    <br>
+    <%= label_tag(:CoverLetter, "Cover Letter:") %>
+    <%= text_field_tag(:CoverLetter) %>
     <br>
     <%= submit_tag("Apply") %>
 <% end %>
