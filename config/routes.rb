@@ -8,7 +8,7 @@ Raspberry::Application.routes.draw do
 
   match '/apply' => 'jobdetails#apply', :as => :jobdetailapply
 
-  match 'jobs/jobrecs' => 'jobs#jobrec', :as => :jobdetailapply
+  match 'jobs/jobrecs' => 'jobs#jobrec', :as => :jobrecs
 
   match '/Apply/ApplyFinish' => 'apply#applyfinish', :as => :applyfinish
 

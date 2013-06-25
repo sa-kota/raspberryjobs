@@ -11,7 +11,9 @@
                  :target => "_blank",
                  :id => 'externalLink'%>
  <% else %>
-     <%= link_to "Apply Here", jobdetailapply_path(:jobDID => @job.DID) %>
+     <%= link_to "Apply Here", jobdetailapply_path(:jobDID => @job.DID),
+                 :target => "_blank",
+                 :id => 'internalLink'%>
  <% end %>
  <br><br>
  <%= @job.inspect %>
@@ -19,7 +21,7 @@
 
  <script type="text/javascript">
      jQuery(document).ready(function($) {
-        $('#externalLink').click(function(){
+        $('#externalLink, #internalLink').click(function(){
             window.location.href = '/jobs/jobrecs?jobdid=' + $('#jobdid').val();
         });
      });
