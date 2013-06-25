@@ -1,21 +1,11 @@
-<h1>Welcome to apply page</h1>
+<h1>Application submitted successfully</h1>
 
-<br>
+JobDID : <%= @jobDID %>
+<br><br>
+Apply URL : <%= @applyformurl %>
+<br><br>
 
-<%= form_tag("../applications/show", :method => "post") do %>
-    <%= hidden_field_tag 'jobdid', @jobDID  %>
-    <br>
-    <%= label_tag(:ApplicantName, "Applicant Name:") %>
-    <%= text_field_tag(:ApplicantName) %>
-    <br>
-    <%= label_tag(:ApplicantEmail, "Applicant Email:") %>
-    <%= text_field_tag(:ApplicantEmail) %>
-    <br>
-    <%= label_tag(:Resume, "Resume:") %>
-    <%= text_field_tag(:Resume) %>
-    <br>
-    <%= label_tag(:CoverLetter, "Cover Letter:") %>
-    <%= text_field_tag(:CoverLetter) %>
-    <br>
-    <%= submit_tag("Apply") %>
-<% end %>
+<iframe src="<%= @applyformurl  %>" style="height: 585px; width:610px" >
+</iframe>
+
+

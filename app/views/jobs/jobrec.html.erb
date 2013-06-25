@@ -1,0 +1,6 @@
+<h1>Welcome Recommendations Page</h1>
+
+<% @jobrecs.ResponseRecommendJob.RecommendJobResults.RecommendJobResult.each do |job| %>
+    <%= link_to job.Title , jobdetailview_path(:jobDID => job.JobDID) %>
+    <br><br>
+<% end %>

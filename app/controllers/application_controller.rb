@@ -33,5 +33,8 @@ class ApplicationController < ActionController::Base
     self.class.get("/v1/application/form?",:query => options.merge(self.default_options))
   end
 
+  def LoadRecommendations(options={})
+    mashup(self.class.get("/v1/recommendations/forjob?",:query => options.merge(self.default_options)))
+  end
 
 end

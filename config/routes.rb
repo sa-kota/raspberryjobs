@@ -8,6 +8,8 @@ Raspberry::Application.routes.draw do
 
   match '/apply' => 'jobdetails#apply', :as => :jobdetailapply
 
+  match 'jobs/jobrecs' => 'jobs#jobrec', :as => :jobdetailapply
+
   match '/Apply/ApplyFinish' => 'apply#applyfinish', :as => :applyfinish
 
   resources :jobresults

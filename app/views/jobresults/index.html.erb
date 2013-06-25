@@ -19,9 +19,11 @@
 
             <% @jobresults.ResponseJobSearch.Results.JobSearchResult.each do |result| %>
                 <div class="resultItem">
+                  <br><br>
                   <%= link_to result.JobTitle, jobdetailview_path(:jobDID => result.DID) %>
                   Descripion : <%= result.DescriptionTeaser %>
                   <br><br>
+                  <hr>
                 </div>
             <% end %>
 

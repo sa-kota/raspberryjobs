@@ -3,14 +3,27 @@
 <h1><%= @job.JobTitle %></h1>
 <br><br>
 
+ <%= hidden_field_tag 'jobdid',  @job.DID  %>
+
  <% if @job.ExternalApplication == 'True' %>
-     <%= link_to "External Apply", 'https://www.careerbuilder.com/ApplyOnline/ExternalApply.aspx?useframes=True&Job_DID='.to_s() + @job.DID %>
+     <%= link_to "External Apply",
+                 'https://www.careerbuilder.com/ApplyOnline/ExternalApply.aspx?useframes=True&Job_DID='.to_s() + @job.DID,
+                 :target => "_blank",
+                 :id => 'externalLink'%>
  <% else %>
      <%= link_to "Apply Here", jobdetailapply_path(:jobDID => @job.DID) %>
  <% end %>
  <br><br>
  <%= @job.inspect %>
  <br><br>
+
+ <script type="text/javascript">
+     jQuery(document).ready(function($) {
+        $('#externalLink').click(function(){
+            window.location.href = '/jobs/jobrecs?jobdid=' + $('#jobdid').val();
+        });
+     });
+ </script>
 
 
 
