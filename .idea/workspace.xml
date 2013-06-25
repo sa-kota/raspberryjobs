@@ -30,6 +30,7 @@
     <file path="/jobrecs.html.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372153794408" ignored="false" />
     <file path="/jobrec.html.erb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372155454555" ignored="false" />
     <file path="/index.html" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372156741605" ignored="false" />
+    <file path="$PROJECT_DIR$/log/development.log" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372157019715" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,7 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/jobdetails/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="25" selection-start="728" selection-end="728" vertical-scroll-proportion="0.79395604">
+            <state line="29" column="61" selection-start="877" selection-end="877" vertical-scroll-proportion="0.6593407">
               <folding />
             </state>
           </provider>
@@ -735,7 +736,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/jobdetails/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="25" selection-start="728" selection-end="728" vertical-scroll-proportion="0.79395604">
+        <state line="29" column="61" selection-start="877" selection-end="877" vertical-scroll-proportion="0.6593407">
           <folding />
         </state>
       </provider>
