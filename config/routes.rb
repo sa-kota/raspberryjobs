@@ -1,10 +1,13 @@
 Raspberry::Application.routes.draw do
 
+  get "show/index"
+
   resources :applications
 
   match '/jobdetails/show' => 'jobdetails#show', :as => :jobdetailview
 
   match '/apply' => 'jobdetails#apply', :as => :jobdetailapply
+
 
   match '/jobs/jobrecs' => 'jobs#jobrec', :as => :jobrecs
 
@@ -61,7 +64,7 @@ Raspberry::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
+   root :to => 'show#index'
 
   # See how all your routes lay out with "rake routes"
 
