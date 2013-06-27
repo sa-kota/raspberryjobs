@@ -8,10 +8,15 @@
 
       <div  style="float:left;">
         <h4>Start your job search</h4>
-        Keyword: <input type="text" style="width:150px;"><br>
-        Location : <input type="text" style="width:150px;"><br>
-        <div style="float:left; width: 95px;">&nbsp;</div>
-        <button type="button" style="padding:5px; width:160px;">Find Jobs!</button>
+        <%= form_tag("/jobresults", method: "get") do %>
+            <%= label_tag(:kw, "Keyword :") %>
+            <%= text_field_tag(:kw) %>
+            <br>
+            <%= label_tag(:loc, "Location :") %>
+            <%= text_field_tag(:loc) %>
+            <br>
+            <%= submit_tag("Find Jobs") %>
+        <% end %>
       </div>
 
       <div style="float: left; width:100px;">&nbsp;</div>

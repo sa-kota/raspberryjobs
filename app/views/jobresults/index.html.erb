@@ -22,12 +22,13 @@
                   <br>
                   <h4><%= link_to result.JobTitle, jobdetailview_path(:jobDID => result.DID) %></h4>
                   <br>
+                  Location : <%= result.Location %>
+                  <br><br>
                   Descripion : <%= result.DescriptionTeaser %>
                   <br><br>
                   <hr>
                 </div>
             <% end %>
-
         <% end %>
     <% end %>
     </div>
