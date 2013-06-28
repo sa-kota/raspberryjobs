@@ -1,9 +1,24 @@
-<h1>Your Search Results</h1>
-
 <style type="text/css">
     .leftMenu {  }
 </style>
 
+<script type="text/javascript" >
+    function CheckText(e, text){
+        if(e.value == text){
+            e.value = '';
+        }
+    }
+</script>
+
+<div class="searchBox" style="margin-top:10px;">
+  <%= form_tag("/jobresults", method: "get") do %>
+      <h3 style="float:left; margin-top: -8px;">Refine your search: &nbsp;</h3>
+      <%= text_field_tag(:kw, nil, :placeholder => "Keyword") %>
+      <%= text_field_tag(:loc, nil, :placeholder => "location") %>
+      <%= submit_tag("Find Jobs", style: "height:28px;margin-top:-12px;") %>
+  <% end %>
+</div>
+<hr>
 
 <div class="mainContent">
     <div class="leftMenu">
