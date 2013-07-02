@@ -29,7 +29,7 @@
     <% unless @jobresults.blank? %>
 
         <% if @jobresults.ResponseJobSearch.TotalCount == 0 %>
-            no jobs found for your search criteria
+            No jobs found for your search criteria
         <% else %>
 
             <% @jobresults.ResponseJobSearch.Results.JobSearchResult.each do |result| %>

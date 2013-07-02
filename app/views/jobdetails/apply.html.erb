@@ -1,6 +1,16 @@
 <h1>Submit your Application here</h1>
 
-<iframe src="<%= @applyformurl  %>" style="height: 615px; width:615px" >
-</iframe>
+<%= form_tag("/job/apply", method: "post") do %>
+    <%= text_field_tag(:name, nil, :placeholder => "Your Name") %>
+    <br>
+    <%= text_field_tag(:mail, nil, :placeholder => "Your Mail") %>
+    <br>
+    <%= text_field_tag(:resume, nil, :placeholder => "Resume") %>
+    <br>
+    <%= text_field_tag(:coverLetter, nil, :placeholder => "Cover Letter") %>
+    <br>
+    <%= submit_tag("Apply Now !") %>
+<% end %>
+
 
 
