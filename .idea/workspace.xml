@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db60be3d-c18a-4789-9f22-306a03b913b6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/fr.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/jobdetails/apply.html.erb" afterPath="$PROJECT_DIR$/app/views/jobdetails/apply.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environment.rb" afterPath="$PROJECT_DIR$/config/environment.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/show/index.html.erb" afterPath="$PROJECT_DIR$/app/views/show/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/jobdetails_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/jobdetails_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="raspberry.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372774211115" ignored="false" />
     <file path="/jobresults_controller.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372340039700" ignored="false" />
-    <file path="/index.html.erb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372778319560" ignored="false" />
+    <file path="/index.html.erb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372778518092" ignored="false" />
     <file path="/routes.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372418455230" ignored="false" />
     <file path="/show.html.erb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372338938836" ignored="false" />
     <file path="/jobdetails_controller.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372773261606" ignored="false" />
@@ -43,6 +34,7 @@
     <file path="/fr.yml" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372778001962" ignored="false" />
     <file path="/en.yml" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372778306167" ignored="false" />
     <file path="/environment.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372774977847" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372778519150" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +57,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/show/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="45" selection-start="264" selection-end="264" vertical-scroll-proportion="0.44619423">
+            <state line="10" column="40" selection-start="248" selection-end="248" vertical-scroll-proportion="0.44619423">
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -805,7 +797,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/show/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="45" selection-start="264" selection-end="264" vertical-scroll-proportion="0.44619423">
+        <state line="10" column="40" selection-start="248" selection-end="248" vertical-scroll-proportion="0.44619423">
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
