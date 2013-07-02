@@ -17,7 +17,41 @@ class JobdetailsController < ApplicationController
   end
 
   def applyfinish
-    @result = ApplyForAJob()
+    xml_resp = build_xml(params)
+    @result = ApplyForAJob(xml_resp)
+  end
+
+  def build_xml(options)
+    xml =     "<RequestApplication>"
+    xml +=       "<DeveloperKey>WDHL2LS5XZF8GYFHK1SB</DeveloperKey>"
+    xml +=       "<JobDID>#{options[:jobdid]}</JobDID>"
+    xml +=       "<Test>true</Test>"
+    xml +=       "<SiteID />"
+    xml +=       "<CoBrand />"
+    xml +=       "<Responses>"
+    xml +=         "<Response>"
+    xml +=          "<QuestionID>ApplicantName</QuestionID>"
+    xml +=          "<ResponseText>#{options[:name]}</ResponseText>"
+    xml +=        "</Response>"
+    xml +=         "<Response>"
+    xml +=           "<QuestionID>ApplicantEmail</QuestionID>"
+    xml +=           "<ResponseText>#{options[:mail]}</ResponseText>"
+    xml +=        "</Response>"
+    xml +=        "<Response>"
+    xml +=          "<QuestionID>Resume</QuestionID>"
+    xml +=          "<ResponseText>#{options[:resume]}</ResponseText>"
+    xml +=        "</Response>"
+    xml +=        "<Response>"
+    xml +=          "<QuestionID>CoverLetter</QuestionID>"
+    xml +=          "<ResponseText>#{options[:coverLetter]}</ResponseText>"
+    xml +=        "</Response>"
+    xml +=        "<Response>"
+    xml +=          "<QuestionID>MeetsRequirements</QuestionID>"
+    xml +=          "<ResponseText>Yes</ResponseText>"
+    xml +=        "</Response>"
+    xml +=      "</Responses>"
+    xml +=    "</RequestApplication>"
+    xml
   end
 
 end

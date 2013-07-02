@@ -37,41 +37,12 @@ class ApplicationController < ActionController::Base
     mashup(self.class.get("/v1/recommendations/forjob?",:query => options.merge(self.default_options)))
   end
 
-  def ApplyForAJob(options={})
-    mashup(self.class.post('/v1/application/submit?', :body => internal_request_builder(), :headers => {'Content-type' => 'text/xml'}))
+  def ApplyForAJob(options)
+    mashup(self.class.post('/v1/application/submit?', :body => options, :headers => {'Content-type' => 'text/xml'}))
   end
 
   def internal_request_builder()
-    xml =     "<RequestApplication>"
-    xml +=       "<DeveloperKey>WDHL2LS5XZF8GYFHK1SB</DeveloperKey>"
-    xml +=       "<JobDID>J3F4X06G4W0CQK1HD72</JobDID>"
-    xml +=       "<Test>true</Test>"
-    xml +=       "<SiteID />"
-    xml +=       "<CoBrand />"
-    xml +=       "<Responses>"
-    xml +=         "<Response>"
-    xml +=          "<QuestionID>ApplicantName</QuestionID>"
-    xml +=          "<ResponseText>Sandesh Kota</ResponseText>"
-    xml +=        "</Response>"
-    xml +=         "<Response>"
-    xml +=           "<QuestionID>ApplicantEmail</QuestionID>"
-    xml +=           "<ResponseText>sandy@ror.com</ResponseText>"
-    xml +=        "</Response>"
-    xml +=        "<Response>"
-    xml +=          "<QuestionID>Resume</QuestionID>"
-    xml +=          "<ResponseText>Sandesh Kota, Senior Engineer</ResponseText>"
-    xml +=        "</Response>"
-    xml +=        "<Response>"
-    xml +=          "<QuestionID>CoverLetter</QuestionID>"
-    xml +=          "<ResponseText>My New Cover Letter</ResponseText>"
-    xml +=        "</Response>"
-    xml +=        "<Response>"
-    xml +=          "<QuestionID>MeetsRequirements</QuestionID>"
-    xml +=          "<ResponseText>Yes</ResponseText>"
-    xml +=        "</Response>"
-    xml +=      "</Responses>"
-    xml +=    "</RequestApplication>"
-    xml
+
   end
 
 end
