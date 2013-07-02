@@ -2,7 +2,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery
 
   def default_options
-    {:DeveloperKey => "WDHL2LS5XZF8GYFHK1SB"}
+    {:DeveloperKey => DEVELOPERKEY }
   end
 
   def mashup(response)
@@ -43,6 +43,11 @@ class ApplicationController < ActionController::Base
 
   def LoadQuestionForJob(options={})
     mashup(self.class.get("/v1/application/blank?",:query => options.merge(self.default_options)))
+  end
+
+  before_filter :set_user_language
+  def set_user_language
+    I18n.locale = params[:locale] || "en"
   end
 
 end

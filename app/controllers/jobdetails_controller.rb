@@ -23,7 +23,7 @@ class JobdetailsController < ApplicationController
 
   def build_xml(options)
     xml =     "<RequestApplication>"
-    xml +=       "<DeveloperKey>WDHL2LS5XZF8GYFHK1SB</DeveloperKey>"
+    xml +=       "<DeveloperKey>#{DEVELOPERKEY}</DeveloperKey>"
     xml +=       "<JobDID>#{options[:jobdid]}</JobDID>"
     xml +=       "<Test>true</Test>"
     xml +=       "<SiteID />"

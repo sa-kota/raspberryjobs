@@ -4,10 +4,12 @@
   <title>Raspberry Jobs</title>
 </head>
 <body>
-    <div class="hero-unit" style="height:170px;">
 
+    <%= t "lang_select" %>: <a href="/?locale=fr" >Français</a> | <a href="/" >English</a>
+    <br><br>
+    <div class="hero-unit" style="height:170px;">
       <div  style="float:left;">
-        <h4>Start your job search</h4>
+        <h4><%= t "search_box_text" %></h4>
         <%= form_tag("/jobresults", method: "get") do %>
             <%= text_field_tag(:kw, nil, :placeholder => "Keyword") %>
             <br>
@@ -21,7 +23,7 @@
 
       <div style="float:left;">
         <div style="float: left; width:20px;">&nbsp;</div>
-        <h4>Top Jobs in Categories</h4>
+        <h4><%= t "category_jobs" %></h4>
         <ul style="width:120px; float:left;list-style-type: none;">
           <li><a href="/jobresults?kw=construction">Construction</a></li>
           <li><a href="/jobresults?kw=driver">Driver</a></li>
@@ -46,19 +48,19 @@
 
     <div class="row">
       <div class="span4">
-        <h4>Upload your CV</h4>
+        <h4><%= t "upload_cv" %></h4>
         <p>Upload your CV today, and receive notice of customised matching vacancies, straight to your email.</p>
         <p><a href="www.careerbuilder.co.uk/JobSeeker/Resumes/PostResumeNew/PostResumeStart.aspx" class="btn">Upload Now »</a></p>
       </div>
 
       <div class="span4">
-        <h4>Try our Intelligent Search</h4>
+        <h4><%= t "try_search" %></h4>
         <p>Because Java is not just a coffee bean... Our search understands keywords and similar phrases to retrieve your best results.</p>
         <p><a href="/jobresults" class="btn">Start Searching »</a></p>
       </div>
 
       <div class="span4">
-        <h4>Featured Employers</h4>
+        <h4><%= t "feat_emps" %></h4>
         <p>Top companies are looking for smart workers! They may be looking for a job seeker just like you. Give it a try !</p>
         <p><a href="http://www.careerbuilder.co.uk/INTL/jobseeker/featuredemployers.aspx?sc_cmp2=JS_UK_HP_FEMORE" class="btn">View More »</a></p>
       </div>

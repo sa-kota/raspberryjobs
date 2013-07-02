@@ -6,7 +6,7 @@
     <% @Questions.ResponseBlankApplication.BlankApplication.Questions.Question.each do |question| %>
         <br>
         <%= label_tag question.QuestionID, question.QuestionText %>
-        <%= text_field_tag(question.QuestionID, nil, :placeholder => question.QuestionText) %>
+        <%= text_field_tag(question.QuestionID, nil, :placeholder => question.QuestionText[0, 20] + "...") %>
     <% end %>
 
     <br>

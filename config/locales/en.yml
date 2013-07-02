@@ -2,4 +2,13 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  hello: "Hello world"
+  search_box_text: "Start your job search"
+  category_jobs: "Jobs by Categories"
+  upload_cv: "Upload your CV"
+  try_search: "Try Our Intelligent Search"
+  feat_emps: "Featured Employers"
+  home: "Home"
+  find_job: "Find Jobs"
+  sign_in: "Sign-In >>"
+  register: "Register"
+  lang_select: "Select your Language"
