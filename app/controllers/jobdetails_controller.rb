@@ -12,7 +12,6 @@ class JobdetailsController < ApplicationController
   end
 
   def apply
-    @jobDID = params[:jobDID]
     @Questions = LoadQuestionForJob(:JobDID => params[:jobDID])
   end
 

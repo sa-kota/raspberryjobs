@@ -1,7 +1,31 @@
- <% @job = @jobdetail.ResponseJob.Job %>
+<% @job = @jobdetail.ResponseJob.Job %>
 
-<h1><%= @job.JobTitle %></h1>
-<br><br>
+<br>
+<% if @job.ExternalApplication == 'True' %>
+    <%= link_to "External Apply",
+                'https://www.careerbuilder.com/ApplyOnline/ExternalApply.aspx?useframes=True&Job_DID='.to_s() + @job.DID,
+                :target => "_blank",
+                :id => "externalLink",
+                :class => "btn applyBtn" %>
+<% else %>
+    <%= link_to "Apply Here", jobdetailapply_path(:jobDID => @job.DID),
+                :id => 'internalLink',
+                :class => "btn applyBtn" %>
+<% end %>
+
+<%= raw "<HR> <CENTER><STRONG>" + @job.JobTitle + "</STRONG></CENTER> <HR>" %>
+ Company: <%= @job.Company %> |
+ Categories: <%= @job.Categories %>
+ <br>
+
+ Location: <%= @job.LocationFormatted %>
+ <br>
+ Experience: <%= @job.ExperienceRequired %>
+ <br><br>
+
+ <%= raw @job.JobDescription %>
+
+ <br><br>
 
  <%= hidden_field_tag 'jobdid',  @job.DID  %>
 
@@ -9,15 +33,13 @@
      <%= link_to "External Apply",
                  'https://www.careerbuilder.com/ApplyOnline/ExternalApply.aspx?useframes=True&Job_DID='.to_s() + @job.DID,
                  :target => "_blank",
-                 :id => 'externalLink'%>
+                 :id => "externalLink",
+                 :class => "btn" %>
  <% else %>
      <%= link_to "Apply Here", jobdetailapply_path(:jobDID => @job.DID),
-                 :id => 'internalLink'%>
+                 :id => "internalLink",
+                 :class => "btn" %>
  <% end %>
- <br><br>
- <%= @job.inspect %>
- <br><br>
-
 
 
 

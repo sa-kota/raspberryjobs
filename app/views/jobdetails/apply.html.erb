@@ -1,7 +1,7 @@
 <h1>Submit your Application here</h1>
 
 <%= form_tag("/job/apply", method: "post") do %>
-    <%= hidden_field_tag 'jobdid',  @jobDID  %>
+    <%= hidden_field_tag 'jobdid',  params["jobDID"]  %>
 
     <% @Questions.ResponseBlankApplication.BlankApplication.Questions.Question.each do |question| %>
         <br>
