@@ -41,8 +41,8 @@ class ApplicationController < ActionController::Base
     mashup(self.class.post('/v1/application/submit?', :body => options, :headers => {'Content-type' => 'text/xml'}))
   end
 
-  def internal_request_builder()
-
+  def LoadQuestionForJob(options={})
+    mashup(self.class.get("/v1/application/blank?",:query => options.merge(self.default_options)))
   end
 
 end

@@ -13,7 +13,7 @@ class JobdetailsController < ApplicationController
 
   def apply
     @jobDID = params[:jobDID]
-    @applyformurl = 'http://api.careerbuilder.com/v1/application/form?DeveloperKey=WDHL2LS5XZF8GYFHK1SB&JobDID='.to_s() + @jobDID
+    @Questions = LoadQuestionForJob(:JobDID => params[:jobDID])
   end
 
   def applyfinish
@@ -29,26 +29,14 @@ class JobdetailsController < ApplicationController
     xml +=       "<SiteID />"
     xml +=       "<CoBrand />"
     xml +=       "<Responses>"
-    xml +=         "<Response>"
-    xml +=          "<QuestionID>ApplicantName</QuestionID>"
-    xml +=          "<ResponseText>#{options[:name]}</ResponseText>"
-    xml +=        "</Response>"
-    xml +=         "<Response>"
-    xml +=           "<QuestionID>ApplicantEmail</QuestionID>"
-    xml +=           "<ResponseText>#{options[:mail]}</ResponseText>"
-    xml +=        "</Response>"
-    xml +=        "<Response>"
-    xml +=          "<QuestionID>Resume</QuestionID>"
-    xml +=          "<ResponseText>#{options[:resume]}</ResponseText>"
-    xml +=        "</Response>"
-    xml +=        "<Response>"
-    xml +=          "<QuestionID>CoverLetter</QuestionID>"
-    xml +=          "<ResponseText>#{options[:coverLetter]}</ResponseText>"
-    xml +=        "</Response>"
-    xml +=        "<Response>"
-    xml +=          "<QuestionID>MeetsRequirements</QuestionID>"
-    xml +=          "<ResponseText>Yes</ResponseText>"
-    xml +=        "</Response>"
+
+    params.each do |key,value|
+      xml +=         "<Response>"
+      xml +=          "<QuestionID>#{key}</QuestionID>"
+      xml +=          "<ResponseText>#{value}</ResponseText>"
+      xml +=        "</Response>"
+    end
+
     xml +=      "</Responses>"
     xml +=    "</RequestApplication>"
     xml

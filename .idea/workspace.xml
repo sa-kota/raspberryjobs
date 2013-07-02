@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="db60be3d-c18a-4789-9f22-306a03b913b6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/jobdetails/apply.html.erb" afterPath="$PROJECT_DIR$/app/views/jobdetails/apply.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/jobdetails_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/jobdetails_controller.rb" />
     </list>
     <ignored path="raspberry.iws" />
@@ -12,14 +13,14 @@
     <file path="/index.html.erb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372763743800" ignored="false" />
     <file path="/routes.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372418455230" ignored="false" />
     <file path="/show.html.erb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372338938836" ignored="false" />
-    <file path="/jobdetails_controller.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372768180016" ignored="false" />
+    <file path="/jobdetails_controller.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372773261606" ignored="false" />
     <file path="/fragment.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372058049967" ignored="false" />
-    <file path="/apply.html.erb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372418373139" ignored="false" />
+    <file path="/apply.html.erb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372772816838" ignored="false" />
     <file path="/ApplyStart.html.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372059261117" ignored="false" />
     <file path="/ApplyFinish.html.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372059337561" ignored="false" />
     <file path="/apply_controller.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372059580101" ignored="false" />
     <file path="/applications_controller.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372140558368" ignored="false" />
-    <file path="/application_controller.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372768218468" ignored="false" />
+    <file path="/application_controller.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372770995515" ignored="false" />
     <file path="/application.html.erb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372316302549" ignored="false" />
     <file path="/jobrec.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372153574276" ignored="false" />
     <file path="/jobrecs_controller.rb" changelist="db60be3d-c18a-4789-9f22-306a03b913b6" time="1372153612146" ignored="false" />
@@ -54,16 +55,16 @@
       <file leaf-file-name="apply.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/jobdetails/apply.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="24" selection-start="58" selection-end="63" vertical-scroll-proportion="-1.3076923">
+            <state line="17" column="34" selection-start="488" selection-end="488" vertical-scroll-proportion="-11.115385">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jobdetails_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="jobdetails_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/jobdetails_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="10" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+            <state line="42" column="21" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.79761904">
               <folding />
             </state>
           </provider>
@@ -72,16 +73,16 @@
       <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="46" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.0">
+            <state line="39" column="25" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applyfinish.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="applyfinish.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/jobdetails/applyfinish.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="73" selection-start="126" selection-end="126" vertical-scroll-proportion="0.08629441">
+            <state line="3" column="60" selection-start="127" selection-end="127" vertical-scroll-proportion="-1.9615384">
               <folding />
             </state>
           </provider>
@@ -118,8 +119,8 @@
         <option value="$PROJECT_DIR$/app/views/jobdetails/show.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/jobdetails.js" />
         <option value="$PROJECT_DIR$/app/views/jobdetails/applyfinish.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/jobdetails/apply.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/jobdetails/apply.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/jobdetails_controller.rb" />
       </list>
     </option>
@@ -230,6 +231,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspberry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspberry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jobresults" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -662,13 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/jobresults/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="74" selection-start="1123" selection-end="1123" vertical-scroll-proportion="-8.423077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/jobresults_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="8" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0">
@@ -718,30 +734,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/jobdetails_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/jobdetails/applyfinish.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="10" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+        <state line="3" column="60" selection-start="127" selection-end="127" vertical-scroll-proportion="-1.9615384">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="46" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.0">
+        <state line="39" column="25" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/jobresults/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="74" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.24619289">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/jobdetails/apply.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="24" selection-start="58" selection-end="63" vertical-scroll-proportion="-1.3076923">
+        <state line="17" column="34" selection-start="488" selection-end="488" vertical-scroll-proportion="-11.115385">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/jobdetails/applyfinish.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/jobdetails_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="73" selection-start="126" selection-end="126" vertical-scroll-proportion="0.08629441">
+        <state line="42" column="21" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.79761904">
           <folding />
         </state>
       </provider>

@@ -3,13 +3,12 @@
 <%= form_tag("/job/apply", method: "post") do %>
     <%= hidden_field_tag 'jobdid',  @jobDID  %>
 
-    <%= text_field_tag(:name, nil, :placeholder => "Your Name") %>
-    <br>
-    <%= text_field_tag(:mail, nil, :placeholder => "Your Mail") %>
-    <br>
-    <%= text_field_tag(:resume, nil, :placeholder => "Resume") %>
-    <br>
-    <%= text_field_tag(:coverLetter, nil, :placeholder => "Cover Letter") %>
+    <% @Questions.ResponseBlankApplication.BlankApplication.Questions.Question.each do |question| %>
+        <br>
+        <%= label_tag question.QuestionID, question.QuestionText %>
+        <%= text_field_tag(question.QuestionID, nil, :placeholder => question.QuestionText) %>
+    <% end %>
+
     <br>
     <%= submit_tag("Apply Now !") %>
 <% end %>
