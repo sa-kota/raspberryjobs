@@ -23,7 +23,7 @@
  Experience: <%= @job.ExperienceRequired %>
  <br><br>
 
- <%= raw @job.JobDescription %>
+<%= raw (CGI.unescapeHTML(@job.JobDescription.to_s())) %>
 
  <br><br>
 
