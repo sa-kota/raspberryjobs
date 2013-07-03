@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db60be3d-c18a-4789-9f22-306a03b913b6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/jobdetails/show.html.erb" afterPath="$PROJECT_DIR$/app/views/jobdetails/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/show/index.html.erb" afterPath="$PROJECT_DIR$/app/views/show/index.html.erb" />
     </list>
     <ignored path="raspberry.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -95,10 +94,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/jobdetails/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="61" selection-start="743" selection-end="743" vertical-scroll-proportion="0.6472081">
+            <state line="23" column="90" selection-start="797" selection-end="797" vertical-scroll-proportion="-11.115385">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/show/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="50" selection-start="2306" selection-end="2306" vertical-scroll-proportion="0.51944447">
               <folding />
             </state>
           </provider>
@@ -132,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/show/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/jobdetails/apply.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/Services/APIService.rb" />
@@ -148,6 +155,7 @@
         <option value="$PROJECT_DIR$/app/Services/api_service.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/jobdetails.js" />
         <option value="$PROJECT_DIR$/app/views/jobdetails/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/show/index.html.erb" />
       </list>
     </option>
   </component>
@@ -239,6 +247,10 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="show" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -259,6 +271,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspberry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspberry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -688,11 +718,6 @@
         <state line="8" column="97" selection-start="418" selection-end="425" vertical-scroll-proportion="0.3756906" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/show/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="39" selection-start="263" selection-end="263" vertical-scroll-proportion="-0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/jobdetails/applyfinish.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="31" selection-start="89" selection-end="89" vertical-scroll-proportion="0.08629441" />
@@ -770,7 +795,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/jobdetails/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="61" selection-start="743" selection-end="743" vertical-scroll-proportion="0.6472081">
+        <state line="23" column="90" selection-start="797" selection-end="797" vertical-scroll-proportion="-11.115385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/show/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="50" selection-start="2306" selection-end="2306" vertical-scroll-proportion="0.51944447">
           <folding />
         </state>
       </provider>
