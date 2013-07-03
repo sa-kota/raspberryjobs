@@ -1,11 +1,8 @@
-require "httparty"
-
 class JobsController < ApplicationController
-  include HTTParty
-  base_uri "http://api.careerbuilder.com"
 
   def jobrec
-      @jobrecs = LoadRecommendations(:JobDID => params[:jobdid])
+    apiservice = ApiService.new()
+     @jobrecs = apiservice.LoadRecommendations(:JobDID => params[:jobdid])
   end
 
 end

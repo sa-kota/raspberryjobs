@@ -1,23 +1,39 @@
-require "httparty"
 
 class JobdetailsController < ApplicationController
-  include HTTParty
-  base_uri "http://api.careerbuilder.com"
 
   def index
   end
 
   def show
-    @jobdetail = jobdetail(:DID => params[:jobDID])
+    apiservice = ApiService.new()
+    @jobdetail = apiservice.jobdetail(:DID => params[:jobDID])
   end
 
   def apply
-    @Questions = LoadQuestionForJob(:JobDID => params[:jobDID])
+    apiservice = ApiService.new()
+    @Questions = apiservice.LoadQuestionForJob(:JobDID => params[:jobDID])
+  end
+
+  def external_apply
+    xml_resp = build_external_xml(params)
+    apiservice = ApiService.new()
+    @result = apiservice.ExternalApplyForJob(xml_resp)
+  end
+
+  def build_external_xml(options)
+    xml = "<Request>"
+    xml += "<DeveloperKey>#{DEVELOPERKEY}</DeveloperKey>"
+    xml += "<EmailAddress>#{options[:email]}</EmailAddress>"
+    xml += "<JobDID>#{options[:jobdid]}</JobDID>"
+    xml += "<IsExternalLinkApply>true</IsExternalLinkApply>"
+    xml += "<HostSite>US</HostSite>"
+    xml += "</Request>"
   end
 
   def applyfinish
     xml_resp = build_xml(params)
-    @result = ApplyForAJob(xml_resp)
+    apiservice = ApiService.new()
+    @result = apiservice.ApplyForAJob(xml_resp)
   end
 
   def build_xml(options)

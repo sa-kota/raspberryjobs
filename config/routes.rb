@@ -6,6 +6,8 @@ Raspberry::Application.routes.draw do
 
   match '/jobdetails/show' => 'jobdetails#show', :as => :jobdetailview
 
+  match 'jobdetails/external' => 'jobdetails#external_apply', :as => :externalapply
+
   match '/apply' => 'jobdetails#apply', :as => :jobdetailapply
 
   match '/job/apply' => 'jobdetails#applyfinish', :as => :applyfinish
