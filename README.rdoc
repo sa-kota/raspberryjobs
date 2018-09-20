@@ -1,2 +1,2 @@
 == Welcome to Rails
- Welcome to my Simple and Sweet Job Portal
+ Welcome to my Simple Job Portal
